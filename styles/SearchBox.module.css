@@ -1,0 +1,17 @@
+.searchBoxContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px ;
+    
+}
+
+.searchBoxContainer input{
+    width: 600px;
+    max-width: 80%;
+    outline: none;
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}

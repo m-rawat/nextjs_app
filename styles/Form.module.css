@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formHeading h2 {
+  text-align: center;
+  font-size: 35px;
+  margin: 40px 0px;
+  letter-spacing: 2px;
+  background: -webkit-linear-gradient(rgb(241, 130, 12), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.label {
+  font-size: 13px;
+  color: whitesmoke;
+}
+
+.textareaField,
+.inputField {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: #333;
+}
+
+.textareaField {
+  height: 180px;
+}
+
+.tags{
+    color: #c5c4c4;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px 0px;
+}
+
+.formBtn {
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background: #333;
+  transition: all 0.4s;
+}
+
+.cancelBtn {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 470px) {
+  .formHeading h2{
+    font-size: 25px;
+  }
+}

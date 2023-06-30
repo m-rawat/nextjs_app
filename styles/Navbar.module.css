@@ -1,0 +1,59 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 50px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.left p {
+  margin-left: 10px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.navBtn {
+  padding: 10px 15px;
+  outline: none;
+  border-radius: 50px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.createPostBtn,
+.signInBtn {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.signOutBtn {
+  background-color: #fff;
+  color: black;
+}
+
+.createPostBtn:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.signInBtn {
+  padding: 10px 20px;
+}
+
+.userImage{
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 580px) {
+  .nav{
+    margin: 20px 30px;
+  }
+}

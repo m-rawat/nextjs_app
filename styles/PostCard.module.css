@@ -1,0 +1,46 @@
+.postCardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 90%;
+    width: 450px;
+    color: #fff;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    margin: 20px 0px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.postCardTop{
+    display: flex;
+    max-width: 90%;
+}
+
+.postCardTop img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.postCardTop h3{
+    color: rgb(184, 184, 184);
+    font-weight: 400;
+}
+
+.postCardTop p{
+    margin: 5px 0px;
+    color: rgb(151, 150, 150);
+}
+
+.postCardMiddle p{
+    color: rgb(198, 197, 197);
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0px;
+}
+
+.postCardBottom p{
+    color: rgb(198, 197, 197);
+    font-size: 15px;
+    margin: 10px 0px;
+}

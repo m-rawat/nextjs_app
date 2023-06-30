@@ -1,0 +1,34 @@
+.headingDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 70px 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.headingDiv h1 {
+  max-width: 90%;
+  margin: 15px 0px;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.headingDiv h2 {
+  max-width: 90%;
+  font-size: 35px;
+  letter-spacing: 2px;
+  background: -webkit-linear-gradient(rgb(241, 130, 12), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 630px) {
+  .headingDiv h1 {
+    font-size: 30px;
+  }
+  .headingDiv h2{
+    font-size: 25px;
+  }
+}
