@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
 
-const url =
-  "mongodb+srv://mayankrawat1:rFPnTXnD8Chw5SpR@cluster0.gn9kuea.mongodb.net/nextjs13?retryWrites=true&w=majority";
+const url = process.env.MONGO_DB_URI;
 
 let isConnected = false; // track the connection
 
